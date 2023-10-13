@@ -1,0 +1,53 @@
+/* request.css */
+
+/* Center the form and add some spacing */
+.container {
+    text-align: left;
+    margin-top: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    color: #030303;
+}
+
+/* Style the form title */
+h1 {
+    color: #FF0000; /* Red text color */
+    font-size: 24px;
+}
+
+/* Style the form input fields */
+.form-control {
+    width: 100%;
+    margin: 5px 0;
+    padding: 10px;
+}
+
+/* Style the form select field */
+.form-select {
+    width: 100%;
+    margin: 5px 0;
+    padding: 10px;
+}
+
+/* Style the form textarea */
+.form-control textarea {
+    width: 100%;
+    margin: 5px 0;
+    padding: 10px;
+}
+
+/* Style the submit button */
+.btn-primary {
+    background-color: #FF0000; /* Red background color */
+    color: #FFF; /* White text color */
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+/* Change button color on hover */
+.btn-primary:hover {
+    background-color: #D80000; /* Darker red on hover */
+}

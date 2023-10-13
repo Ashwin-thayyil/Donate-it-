@@ -1,0 +1,43 @@
+.container img {
+    display: block;
+    margin: 0 auto;
+}
+.container h1 {
+    color: royalblue;
+    text-align: center;
+}
+
+a {
+    display: block; /* Makes the link a block-level element */
+    text-align: center;
+    background-color: #007bff; /* Customize the link's background color */
+    color: #fff; /* Text color for the link */
+    padding: 10px 20px;
+    text-decoration: none; /* Remove the default underline */
+    border-radius: 5px; /* Add rounded corners to the link */
+    margin: 20px auto; /* Center the link horizontally */
+    width: fit-content; /* Make the link width adjust to content */
+}
+body{
+    background-color: #dcd1d1;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+/* Apply the animation to the <h1> element */
+h1 {
+    animation: fadeIn 1s ease-in forwards;
+}
+
+.green-background {
+    animation: colorChange 2s infinite alternate;
+}
+
+

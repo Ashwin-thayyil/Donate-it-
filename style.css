@@ -1,0 +1,45 @@
+ marquee {
+    background-color: aqua;
+    color: red;
+  }
+  .container {
+    background-color: #f2f2f2;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+
+h2 {
+    text-align: center;
+    color: #931f1f;
+    font-size: 24px;
+}
+
+/* Styles for paragraphs */
+p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 15px;
+}
+
+/* Styles for lists */
+ul {
+    list-style-type: disc;
+}
+
+/* Styles for list items */
+li {
+    margin-left: 20px;
+}
+
+a {
+    display: block; /* Makes the link a block-level element */
+    text-align: center;
+    background-color: #007bff; /* Customize the link's background color */
+    color: #fff; /* Text color for the link */
+    padding: 10px 20px;
+    text-decoration: none; /* Remove the default underline */
+    border-radius: 5px; /* Add rounded corners to the link */
+    margin: 20px auto; /* Center the link horizontally */
+    width: fit-content; /* Make the link width adjust to content */
+}

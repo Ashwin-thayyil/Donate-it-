@@ -1,0 +1,74 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('images/donate-blood-4.jpg'); /* Path to your image */
+    background-size: cover; /* Ensure the image covers the entire background */
+    background-position: center; /* Center the image horizontally and vertically */
+    margin: 0;
+    animation: scaleImage 1s infinite;
+}
+
+@keyframes scaleImage {
+    0% {
+        transform: scale(1);
+    }
+    100% {
+        transform: scale(1.05);
+    }
+}
+
+.container {
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 100px auto;
+    max-width: 300px;
+    text-align: center;
+}
+
+h2 {
+    color: #333;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-top: 5px;
+}
+
+button {
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+a {
+    display: block; /* Makes the link a block-level element */
+    text-align: center;
+    background-color: #007bff; /* Customize the link's background color */
+    color: #fff; /* Text color for the link */
+    padding: 10px 20px;
+    text-decoration: none; /* Remove the default underline */
+    border-radius: 5px; /* Add rounded corners to the link */
+    margin: 20px auto; /* Center the link horizontally */
+    width: fit-content; /* Make the link width adjust to content */
+}
