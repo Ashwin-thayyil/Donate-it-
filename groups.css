@@ -1,12 +1,41 @@
-.container img {
-    display: block;
-    margin: 0 auto;
+body {
+    font-family: Arial, sans-serif;
+    background-color: palegoldenrod;
+ 
 }
-.container h1 {
-    color: royalblue;
+
+
+
+.container {
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 100px auto;
+    max-width: 300px;
+    text-align: left;
+}
+
+h1, h2 ,h3{
+    color: #333;
     text-align: center;
 }
 
+ul {
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+p {
+    color: black;
+    white-space: normal;;
+    margin-bottom: 15px;
+}
 a {
     display: block; /* Makes the link a block-level element */
     text-align: center;
@@ -18,26 +47,3 @@ a {
     margin: 20px auto; /* Center the link horizontally */
     width: fit-content; /* Make the link width adjust to content */
 }
-body{
-    background-color: #dcd1d1;
-}
-
-@keyframes fadeIn {
-    from {
-        opacity: 0;
-    }
-    to {
-        opacity: 10;
-    }
-}
-
-/* Apply the animation to the <h1> element */
-h1 , h2 {
-    animation: fadeIn 1s ease-in forwards;
-}
-
-.green-background {
-    animation: colorChange 1s infinite alternate;
-}
-
-
