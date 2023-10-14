@@ -35,6 +35,7 @@ p {
     color: black;
     white-space: normal;;
     margin-bottom: 15px;
+    padding: 20px;
 }
 a {
     display: block; /* Makes the link a block-level element */
@@ -42,7 +43,6 @@ a {
     background-color: #007bff; /* Customize the link's background color */
     color: #fff; /* Text color for the link */
     padding: 10px 20px;
-    text-decoration: none; /* Remove the default underline */
     border-radius: 5px; /* Add rounded corners to the link */
     margin: 20px auto; /* Center the link horizontally */
     width: fit-content; /* Make the link width adjust to content */
